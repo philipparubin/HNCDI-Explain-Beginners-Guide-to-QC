@@ -1,8 +1,6 @@
 # HNCDI Explain: Beginner's Guide to Quantum Computing
 
-This repository contains files for the Lab 2 of the course.
-
-Use the HNCDI-Explain.ipynb file to submit jobs to IBMQ.
+This repository contains files for the Lab 2 of the course. Use the HNCDI-Explain.ipynb file to submit jobs to IBMQ.
 
 Either:
 - **Clone:** Clone this respository and upload the HNCDI-Explain.ipynb file to the IBM Quantum Lab. Run all cells.
