@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "hncdi-explain-beginners-guide-to-qc"
+version = "0.1.0"
+description = "Materials for HNCDI Explain Courses"
+authors = ["Philippa Rubin <philippa.rubin@stfc.ac.uk>"]
+readme = "README.md"
+packages = [{include = "hncdi_explain_beginners_guide_to_qc"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.23.0"
+qiskit = "^0.41.0"
+matplotlib = "^3.6.3"
+jupyter = "^1.0.0"
+jupyterlab = "^3.6.1"
+ibm-quantum-widgets = "^1.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
