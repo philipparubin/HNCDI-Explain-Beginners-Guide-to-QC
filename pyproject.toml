@@ -9,12 +9,12 @@ packages = [{include = "hncdi_explain_beginners_guide_to_qc"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 numpy = "^1.23.0"
-qiskit = "^0.41.0"
 matplotlib = "^3.6.3"
 jupyter = "^1.0.0"
 jupyterlab = "^3.6.1"
-ibm-quantum-widgets = "^1.0.3"
 
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
 
 [build-system]
 requires = ["poetry-core"]
