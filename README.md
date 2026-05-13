@@ -15,11 +15,8 @@ You can get this code in a few different ways, pick whichever you feel confident
     - Exercise 2: https://colab.research.google.com/github/philipparubin/HNCDI-Explain-Beginners-Guide-to-QC/blob/main/2-pi-estimate-exercise.ipynb
 
 2. Run it locally
-    Either:
-        - **Clone/Download:** Clone/Download this respository and load it using your favourite notebook environment. 
-        - If you would like to run the simulator exercises on your local machine, you can use poetry for notebook requirements. 
+    This repository uses uv to manage dependencies. If you would like to run these notebooks locally, install uv and then run:
 
 ``` 
-pip install poetry
-poetry install
+uv run --with jupyter jupyter lab
 ```
